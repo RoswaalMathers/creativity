@@ -130,7 +130,7 @@ def login_page():
     st.write("Please enter the details I shared with you to unlock the note.")
 
     with st.form("login_form"):
-        name = st.text_input("Your Name", placeholder="e.g., Samrat")
+        name = st.text_input("Your Name")
         nickname = st.text_input("Your Nickname given by me", type="password")
         submitted = st.form_submit_button("Unlock")
 
